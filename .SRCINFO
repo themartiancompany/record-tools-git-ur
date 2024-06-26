@@ -1,0 +1,25 @@
+pkgbase = record-tools-git
+	pkgdesc = Returns an unused local port.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.r0.g1bbbda17483d35fe062e4c1ac2b74ff99a6d5794
+	pkgrel = 1
+	url = https://github.com/themartiancompany/record-tools
+	arch = any
+	groups = hip
+	groups = hip-git
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	makedepends = curl
+	makedepends = jq
+	depends = bbrightnessctl
+	depends = libcrash-bash
+	depends = media-tools
+	depends = touchctl
+	depends = android-utils
+	depends = termux-api
+	provides = record-tools=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.r0.g1bbbda17483d35fe062e4c1ac2b74ff99a6d5794
+	conflicts = record-tools
+	source = record-tools.tar.gz::https://github.com/themartiancompany/record-tools/archive/refs/heads/master.tar.gz
+	sha256sums = SKIP
+
+pkgname = record-tools-git
